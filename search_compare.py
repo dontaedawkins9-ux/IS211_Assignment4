@@ -36,6 +36,8 @@ def ordered_sequential_search(a_list, item):
 
     end_time = time.time()
     time_taken = end_time - start_time
+        
+    return found, time_taken
 
 def binary_search_iterative(a_list, item):
     start_time = time.time()
